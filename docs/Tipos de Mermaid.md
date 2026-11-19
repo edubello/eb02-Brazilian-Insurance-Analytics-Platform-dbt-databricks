@@ -1,7 +1,14 @@
+---
+title: Example Git diagram
+---
 gitGraph
-    commit id: "Inicial"
-    branch feature/login
-    checkout feature/login
-    commit id: "Tela de login"
+    commit
+    commit
+    branch develop
+    checkout develop
+    commit
+    commit
     checkout main
-    merge feature/login
+    merge develop
+    commit
+    commit
