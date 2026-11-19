@@ -5,7 +5,6 @@
 Projeto de Engenharia de Dados construído com dados públicos da SUSEP e dados sintéticos para simular operações reais de seguradoras brasileiras.
 
 O objetivo é demonstrar a construção de uma plataforma analítica moderna utilizando arquitetura Medallion (Bronze, Silver e Gold), Delta Lake, dbt, testes automatizados, CI/CD e modelagem dimensional voltada para indicadores estratégicos do mercado segurador.
-
 Desenvolver experiência prática no uso de dbt para transformar dados e conectar as áreas de engenharia e análise.
 
 
