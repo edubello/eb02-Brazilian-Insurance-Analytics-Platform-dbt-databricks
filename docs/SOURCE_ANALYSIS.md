@@ -1,3 +1,11 @@
+
+Exploração → Databricks Notebook
+
+Transformação → dbt
+
+Consumo → Power BI
+
+
 ses_seguros.csv
 damesano
 coenti
