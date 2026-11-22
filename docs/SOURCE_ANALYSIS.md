@@ -1,26 +1,46 @@
+# Descobertas
 
-Exploração → Databricks Notebook
+## ses_cias
 
-Transformação → dbt
+Registros: 770
 
-Consumo → Power BI
+Granularidade:
+1 linha por seguradora.
 
+Chave candidata:
+- coenti
 
-ses_seguros.csv
-damesano
-coenti
-coramo
+---
 
-1 linha por:
+## ses_ramos
 
-Mês
-Seguradora
-Ramo
+Registros: 161
 
-premio_direto
-premio_ganho
-premio_retido
-sinistro_direto
-sinistro_retido
-sinistro_ocorrido
-...
+Granularidade:
+1 linha por ramo.
+
+Chave candidata:
+- coramo
+
+---
+
+## ses_seguros
+
+Registros:
+1.818.607
+
+Granularidade observada:
+
+1 linha =
+1 mês +
+1 seguradora +
+1 ramo
+
+Chave candidata:
+
+- damesano
+- coenti
+- coramo
+
+Teste de duplicidade:
+0 registros duplicados
