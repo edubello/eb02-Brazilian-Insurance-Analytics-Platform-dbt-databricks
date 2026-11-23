@@ -45,23 +45,29 @@ Chave candidata:
 Teste de duplicidade:
 0 registros duplicados
 
+## Finding 001
 
-Finding #1
+### Campo
 
-Foi identificado comportamento inconsistente entre os códigos de entidade presentes nas tabelas de fatos e dimensões.
+Coenti
 
-A validação mostrou diferenças de formatação dos identificadores, exigindo padronização na camada Silver antes da aplicação de joins.
+### Tabelas
 
+- ses_cias
+- ses_seguros
 
-Finding #2
+### Problema identificado
 
-O campo Coenti em ses_cias possui preenchimento com espaços em branco à direita.
+O campo Coenti em ses_cias apresenta preenchimento com espaços em branco à direita.
 
-A validação de integridade referencial entre ses_cias e ses_seguros exigiu a aplicação de TRIM antes dos joins.
+### Evidência
 
-A padronização será implementada na camada Silver.
+Join direto entre as tabelas resultou em 281 códigos órfãos.
 
-**Problema identificado ✅
-Problema explicado ✅
-Regra de transformação descoberta ✅
-**
+Após aplicação de trim() em ambas as fontes:
+
+- 0 códigos órfãos
+
+### Regra de tratamento
+
+Aplicar trim() no campo Coenti durante a carga da camada Silver.
