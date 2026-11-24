@@ -13,6 +13,21 @@
 [![Analytics Engineering](https://img.shields.io/badge/Practice-Analytics%20Engineering-0D9488?style=flat-square)](https://docs.getdbt.com/guides/best-practices)
 [![Data Quality](https://img.shields.io/badge/Quality-Fail--Fast%20Gates%20%26%20Quarantine-D97706?style=flat-square)]()
 
+**Status: Em andamento (últ. atualização 24/11/2026)**
+<br>
+**Fase Atual: Data Discovering & Source Analysis**
+
+Já concluído:
+ Análise exploratória
+ Validação de granularidade
+ Identificação de regras de qualidade
+ Mapeamento de relacionamentos
+ <br>
+Próximos passos:
+ Bronze Layer
+ dbt Silver Layer
+ Modelagem Dimensional
+ Power BI
  
 # 🛡️ Brazilian Insurance Analytics Platform
 
@@ -21,8 +36,6 @@ Projeto de Engenharia de Dados construído com dados públicos da SUSEP e dados 
 O objetivo é demonstrar a construção de uma plataforma analítica moderna utilizando arquitetura Medallion (Bronze, Silver e Gold), Delta Lake, dbt, testes automatizados, CI/CD e modelagem dimensional voltada para indicadores estratégicos do mercado segurador.
 <br> 
 Desenvolver experiência prática no uso de dbt para transformar dados e conectar as áreas de engenharia e análise.
-
-
 
 ---
 
