@@ -1,5 +1,19 @@
 # eb_02-Brazilian-Insurance-Analytics-Platform-dbt-databricks
  Data Engineering project built using public data from SUSEP and synthetic data to simulate the actual operations of Brazilian insurance companies. - Projeto de Engenharia de Dados construído com dados públicos da SUSEP e dados sintéticos para simular operações reais de seguradoras brasileiras.
+ 
+[![dbt Core](https://img.shields.io/badge/dbt-Core-FF694B?style=flat-square&logo=dbt&logoColor=white)](https://docs.getdbt.com/)
+[![dbt + Databricks](https://img.shields.io/badge/dbt-Databricks%20SQL-FF694B?style=flat-square&logo=dbt&logoColor=white)](https://docs.getdbt.com/docs/core/connect-data-platform/databricks-setup)
+[![Delta Lake](https://img.shields.io/badge/Storage-Delta%20Lake-blue?style=flat-square)](https://delta.io/)
+[![PySpark](https://img.shields.io/badge/Language-PySpark-yellow?style=flat-square&logo=apachespark)](https://spark.apache.org/)
+[![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![SQL](https://img.shields.io/badge/SQL-Spark%20SQL%20%2F%20ANSI-02569B?style=flat-square&logo=databricks&logoColor=white)](https://docs.databricks.com/sql/)
+
+[![Unity Catalog](https://img.shields.io/badge/Governance-Unity%20Catalog-FF3621?style=flat-square&logo=databricks&logoColor=white)](https://docs.databricks.com/data-governance/unity-catalog/)
+[![Medallion Architecture](https://img.shields.io/badge/Architecture-Medallion%20(Bronze%20%7C%20Silver%20%7C%20Gold)-6C47FF?style=flat-square)](https://www.databricks.com/glossary/medallion-architecture)
+[![Analytics Engineering](https://img.shields.io/badge/Practice-Analytics%20Engineering-0D9488?style=flat-square)](https://docs.getdbt.com/guides/best-practices)
+[![Data Quality](https://img.shields.io/badge/Quality-Fail--Fast%20Gates%20%26%20Quarantine-D97706?style=flat-square)]()
+
+ 
 # 🛡️ Brazilian Insurance Analytics Platform
 
 Projeto de Engenharia de Dados construído com dados públicos da SUSEP e dados sintéticos para simular operações reais de seguradoras brasileiras.
